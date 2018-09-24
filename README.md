@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+The application works as a catalog of games where players can opine and qualify games
+
 ![Screenshot](Selection_001.png)
 
 Below you will find some information on how to perform common tasks.<br>
