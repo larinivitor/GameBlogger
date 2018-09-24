@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.Login{
+    background:  url(./zelda.jpg) no-repeat center center fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Login--welcome{
+    text-align: center;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.Login--pageName{
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: #FF4136;
+}
+
+.Login--cont{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Login--container{
+
+    width: 330px;
+    height: 330px;
+    background-color: #ffffff;
+    background: rgba(255,255,255, 0.8);
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 0 0 20px 0 rgba(223, 211, 211, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

@@ -1,0 +1,23 @@
+.Menu{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -600px;
+}
+
+
+.PostForm{
+    display: flex;           
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    padding: 0;
+    background:  url(./bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.PostForm--content{
+    min-width: 600px;
+}

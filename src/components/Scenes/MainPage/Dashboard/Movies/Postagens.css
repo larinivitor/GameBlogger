@@ -1,0 +1,48 @@
+.Movies{
+    display: flex;
+    height: 100%;
+    padding: 0;
+    background:  url(./bg.png) no-repeat center center fixed; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Movies--content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Movies--item{
+    width: 350px;
+    margin: 20px;
+}
+
+.Movies--empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top:12%;
+    width: 330px;
+    height: 330px;
+    background-color: #ffffff;
+    background: rgba(255,255,255, 0.8);
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 0 0 20px 0 rgba(223, 211, 211, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Movies--empty--text{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Posts--Jumbo{
+    width: 100px;
+    height: 100px;
+}
+
